@@ -8,23 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header-position">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html"
+          >WebStudio<img src="./Logo.svg" alt="Logo" width="115px" />
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item list"><a href="">Studio</a></li>
+          <li class="nav-item list">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item list"><a href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="list">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -32,38 +36,38 @@
     </header>
     <main>
       <!-- Main bit -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">Order Service</button>
       </section>
       <!-- 4 facts -->
       <section>
-        <h2 hidden>features</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <h2 class="visually-hidden">features</h2>
+        <ul class="list">
+          <li class="facts1-position facts-common">
+            <h3 class="subtitle">Strategy</h3>
+            <p class="facts-desc">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="facts2-position facts-common">
+            <h3 class="subtitle">Punctuality</h3>
+            <p class="facts-desc">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="facts3-position facts-common">
+            <h3 class="subtitle">Diligence</h3>
+            <p class="facts-desc">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="facts4-position facts-common">
+            <h3 class="subtitle">Technologies</h3>
+            <p class="facts-desc">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -72,61 +76,61 @@
       </section>
       <!-- What are we doing  -->
       <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="list">
+          <li class="doing-img-common doing-img1">
             <img src="./images_for_hm1/img1.jpg" alt="computer" width="360" />
           </li>
-          <li>
+          <li class="doing-img-common doing-img2">
             <img src="./images_for_hm1/img2.jpg" alt="phone" width="360" />
           </li>
-          <li>
+          <li class="doing-img-common doing-img3">
             <img src="./images_for_hm1/img3.jpg" alt="both" width="360" />
           </li>
         </ul>
       </section>
       <!-- Our Team -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="team-position">
+        <h2 class="section-title team-header-position">Our Team</h2>
+        <ul class="list">
+          <li class="team-cards-position team-cards1-position">
             <img
               src="./images_for_hm1/img4.jpg"
               alt="Mark Guererro"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="subtitle">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team-cards-position team-cards2-position">
             <img src="./images_for_hm1/img5.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
+            <h3 class="subtitle">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-cards-position team-cards3-position">
             <img
               src="./images_for_hm1/img6.jpg"
               alt="Camila Garcia"
               width="264"
             />
-            <h3>Camila Garcia</h3>
+            <h3 class="subtitle">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-cards-position team-cards4-position">
             <img
               src="./images_for_hm1/img7.jpg"
               alt="Daniel Wilson"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="subtitle">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a href="./index.html">WebStudio</a>
-      <p>
+      <p class="footer-desc">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
