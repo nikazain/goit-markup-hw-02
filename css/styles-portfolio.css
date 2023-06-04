@@ -48,7 +48,6 @@ body {
 .link {
   text-decoration: none;
 }
-
 /* Header */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -85,65 +84,38 @@ body {
   color: var(--color-ocean);
 }
 
-/* Hero Section */
-.main-title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--color-white);
-}
-.hero {
-  background-color: var(--color-navy-blue);
-}
+/* Filter */
 .btn {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color:var(--color-white)
-  background-color: var(var(--color-iris));
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  border: 1px solid;
+  border-color: var(--color-cornflower);
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
-  background-color: var(--color-ocean);
+  color: var(--color-white);
+  background-color: var(--color-iris);
   cursor: pointer;
 }
-
-/* 4 facts */
-.visually-hidden {
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+/* Main Bit */
+.article {
+  background: var(--color-white);
+  border: 1px solid;
+  border-color: var(--color-cornflower);
 }
-.facts-desc { 
+.article-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.article-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-
-/* What are we doing */
-
-/* Our Team */
-
-.team-list {
- background-color: var(--color-cloud)
- ;
-}
-.team-list-item {
-  background-color: var(--color-white);
-}
-.team-list-text {
-font-size: 16px;
-line-height: 1.5;
-}
-
 /* Footer */
 .footer {
   background-color: var(--color-navy-blue);
