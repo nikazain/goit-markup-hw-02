@@ -30,6 +30,7 @@ body {
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
 
   color: var(--color-grey);
@@ -162,109 +163,6 @@ body {
   color: var(--color-cloud);
 }
 .footer-desc {
-  line-height: 24px;
-  color: var(--color-cloud);
-}
-/* Header */
-.logo-ptf {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris);
-}
-.logo-color-ptf {
-  color: var(--color-navy-blue);
-}
-.nav-item-ptf {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
-}
-.nav-item-ptf:hover,
-.nav-item-ptf:focus {
-  color: var(--color-ocean);
-}
-.adress {
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-.adress:hover,
-.adress:focus {
-  color: var(--color-ocean);
-}
-
-/* Filter */
-.visually-hidden {
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.btn {
-  font-style: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--color-iris);
-  background-color: var(--color-cloud);
-  border: 1px solid;
-  border-color: var(--color-cornflower);
-  border-radius: 4px;
-}
-.btn:hover,
-.btn:focus {
-  color: var(--color-white);
-  background-color: var(--color-iris);
-  cursor: pointer;
-}
-/* Main Bit */
-.article {
-  background: var(--color-white);
-  border: 1px solid;
-  border-color: var(--color-cornflower);
-}
-.article-title {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
-}
-.article-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-/* Footer */
-.footer-ptf {
-  background-color: var(--color-navy-blue);
-}
-.logo-footer-ptf {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris);
-}
-.logo-footer-color-ptf {
-  color: var(--color-cloud);
-}
-.footer-desc-ptf {
   line-height: 24px;
   color: var(--color-cloud);
 }
