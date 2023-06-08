@@ -117,10 +117,10 @@ body {
   color: var(--color-slate);
 }
 /* Footer */
-.footer {
+.footer-ptf {
   background-color: var(--color-navy-blue);
 }
-.logo-footer {
+.logo-footer-ptf {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -130,10 +130,10 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
 }
-.logo-footer-color {
+.logo-footer-color-ptf {
   color: var(--color-cloud);
 }
-.footer-desc {
+.footer-desc-ptf {
   line-height: 24px;
   color: var(--color-cloud);
 }
