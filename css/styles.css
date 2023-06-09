@@ -74,7 +74,7 @@ body {
 }
 .nav-item:hover,
 .nav-item:focus {
-  color: var(--color-iris);
+  color: var(--color-ocean);
 }
 .adress {
   font-style: normal;
@@ -106,7 +106,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  background-color: var(--color-ocean);
+  background-color: var(--color-iris);
 }
 .btn:hover,
 .btn:focus {
