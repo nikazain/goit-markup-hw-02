@@ -109,7 +109,7 @@ body {
 .btn:hover,
 .btn:focus {
   color: var(--color-white);
-  background-color: var(--color-iris);
+  background-color: var(--color-ocean);
   cursor: pointer;
 }
 /* Main Bit */
