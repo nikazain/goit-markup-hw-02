@@ -106,7 +106,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  background-color: var(--color-iris);
+  background-color: var(--color-ocean);
 }
 .btn:hover,
 .btn:focus {
