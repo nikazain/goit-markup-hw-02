@@ -119,7 +119,6 @@ body {
 .visually-hidden {
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -223,7 +222,6 @@ body {
   background-color: var(--color-cloud);
   border: 1px solid;
   border-color: var(--color-cornflower);
-  border-radius: 4px;
 }
 .btn-ptf:hover,
 .btn-ptf:focus {
